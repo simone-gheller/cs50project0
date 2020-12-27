@@ -2,12 +2,19 @@
 <html lang="eng">
     <head>
         <title>Google Search</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <a href="search.html"></a>
+        <div id="links">
+            <a href="search.html">Home</a>
+        </div>
+        <div id="title">
+            <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </div>
         <form action="https://www.google.it/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <input type="text" name="q" id="searchbar">
+            <br>
+            <input type="submit" value="Search Images" >
             <input type="hidden" name="tbm" value="isch">
         </form>
     </body>
